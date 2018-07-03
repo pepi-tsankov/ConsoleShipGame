@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Petar_Tsankov_ConsoleGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Petar_Tsankov_ConsoleGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Petar_Tsankov_45367_ConsoleGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Declarations/GUI/DrawableObject.cpp" />
+		<Unit filename="Declarations/GUI/Screen.cpp" />
+		<Unit filename="Declarations/GameItems/BasicEntityTypes.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/CDbuy.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/DeathMsg.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/DmgBuy.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/EnemyBoss01.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/EnemyBullet01.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/EnemyPlane01.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/EnemyPlane02.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/ExitButton.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/HealthBuy.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/HealthReduced.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/Help.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/LevelSpawner01.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/LevelSpawner02.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/LoadButton.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/SaveButton.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/Shop.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/StartButton.cpp" />
+		<Unit filename="Declarations/GameItems/Enemies/TitleScreenButton.cpp" />
+		<Unit filename="Declarations/GameItems/Entity.cpp" />
+		<Unit filename="Declarations/GameItems/Friendlies/Helper.cpp" />
+		<Unit filename="Declarations/GameItems/Friendlies/Player.cpp" />
+		<Unit filename="Declarations/GameItems/Friendlies/PlayerBullet.cpp" />
+		<Unit filename="Declarations/GameItems/Friendlies/PlayerExplosion.cpp" />
+		<Unit filename="Declarations/GameItems/Friendlies/PlayerRocket.cpp" />
+		<Unit filename="Declarations/GameItems/System.cpp" />
+		<Unit filename="Declarations/GameItems/Terrain.cpp" />
+		<Unit filename="Declarations/GameItems/hitbox.cpp" />
+		<Unit filename="Declarations/GameWrapper.cpp" />
+		<Unit filename="Declarations/Handlers/KeyHandler.cpp" />
+		<Unit filename="Declarations/Handlers/RedrawHandler.cpp" />
+		<Unit filename="Declarations/Handlers/TickHandler.cpp" />
+		<Unit filename="Declarations/Vector.inl" />
+		<Unit filename="Headers/GUI/DrawableObject.hpp" />
+		<Unit filename="Headers/GUI/Screen.hpp" />
+		<Unit filename="Headers/GameItems/BasicEntityTypes.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/CDbuy.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/DeathMsg.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/DmgBuy.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/EnemyBoss01.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/EnemyBullet01.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/EnemyPlane01.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/EnemyPlane02.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/ExitButton.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/HealthBuy.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/HealthReduced.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/Help.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/LevelSpawner01.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/LevelSpawner02.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/LoadButton.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/SaveButton.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/Shop.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/StartButton.hpp" />
+		<Unit filename="Headers/GameItems/Enemies/TitleScreenButton.hpp" />
+		<Unit filename="Headers/GameItems/Entity.hpp" />
+		<Unit filename="Headers/GameItems/Friendlies/Helper.hpp" />
+		<Unit filename="Headers/GameItems/Friendlies/Player.hpp" />
+		<Unit filename="Headers/GameItems/Friendlies/PlayerBullet.hpp" />
+		<Unit filename="Headers/GameItems/Friendlies/PlayerExplosion.hpp" />
+		<Unit filename="Headers/GameItems/Friendlies/PlayerRocket.hpp" />
+		<Unit filename="Headers/GameItems/System.hpp" />
+		<Unit filename="Headers/GameItems/Terrain.hpp" />
+		<Unit filename="Headers/GameItems/hitbox.hpp" />
+		<Unit filename="Headers/GameWrapper.hpp" />
+		<Unit filename="Headers/Vector.hpp" />
+		<Unit filename="Main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

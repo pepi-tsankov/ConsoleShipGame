@@ -1,0 +1,356 @@
+# depslib dependency file v1.0
+1530360972 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\basicentitytypes.cpp
+	"../../Headers/GameItems/BasicEntityTypes.hpp"
+	"../../Headers/Vector.hpp"
+	"../../Headers/GameItems/Entity.hpp"
+	"../../Headers/GameItems/System.hpp"
+
+1530199889 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\basicentitytypes.hpp
+	"../Vector.hpp"
+
+1529953320 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\vector.hpp
+	<stddef.h>
+	<iostream>
+	"../Declarations/Vector.inl"
+
+1530360865 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\vector.inl
+	"../Headers/Vector.hpp"
+	<ostream>
+	<stdexcept>
+
+1530353066 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\entity.hpp
+	"../Vector.hpp"
+
+1530460051 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\system.hpp
+	"../Vector.hpp"
+	"Entity.hpp"
+
+1530459315 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\cdbuy.cpp
+	"../../../Headers/GameItems/Enemies/CDbuy.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530455274 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\cdbuy.hpp
+	"../BasicEntityTypes.hpp"
+
+1530349143 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gui\screen.hpp
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+	"../GameItems/Entity.hpp"
+
+1530108255 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\hitbox.hpp
+	"../Vector.hpp"
+
+1530438964 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\deathmsg.cpp
+	"../../../Headers/GameItems/Enemies/DeathMsg.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530400245 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\deathmsg.hpp
+	"../BasicEntityTypes.hpp"
+
+1530459315 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\dmgbuy.cpp
+	"../../../Headers/GameItems/Enemies/DmgBuy.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530456317 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\dmgbuy.hpp
+	"../BasicEntityTypes.hpp"
+
+1530436046 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\enemybullet01.cpp
+	"../../../Headers/GameItems/Enemies/EnemyBullet01.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530432446 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\enemybullet01.hpp
+	"../BasicEntityTypes.hpp"
+
+1530452780 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\enemyplane01.cpp
+	"../../../Headers/GameItems/Enemies/EnemyPlane01.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530424725 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\enemyplane01.hpp
+	"../BasicEntityTypes.hpp"
+
+1530452808 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\enemyplane02.cpp
+	"../../../Headers/GameItems/Enemies/EnemyPlane02.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530432136 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\enemyplane02.hpp
+	"../BasicEntityTypes.hpp"
+	"../hitbox.hpp"
+
+1530389763 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\exitbutton.cpp
+	"../../../Headers/GameItems/Enemies/ExitButton.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530355638 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\exitbutton.hpp
+	"../BasicEntityTypes.hpp"
+
+1530459315 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\healthbuy.cpp
+	"../../../Headers/GameItems/Enemies/HealthBuy.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530456723 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\healthbuy.hpp
+	"../BasicEntityTypes.hpp"
+
+1530459315 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\healthreduced.cpp
+	"../../../Headers/GameItems/Enemies/HealthReduced.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530457048 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\healthreduced.hpp
+	"../BasicEntityTypes.hpp"
+
+1530389546 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\help.cpp
+	"../../../Headers/GameItems/Enemies/Help.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530388884 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\help.hpp
+	"../BasicEntityTypes.hpp"
+
+1530459517 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\levelspawner02.cpp
+	"../../../Headers/GameItems/Enemies/LevelSpawner02.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530458392 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\levelspawner02.hpp
+	"../BasicEntityTypes.hpp"
+
+1530397765 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\loadbutton.cpp
+	"../../../Headers/GameItems/Enemies/LoadButton.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+	<fstream>
+
+1530390699 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\loadbutton.hpp
+	"../BasicEntityTypes.hpp"
+
+1530397967 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\savebutton.cpp
+	"../../../Headers/GameItems/Enemies/SaveButton.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530397464 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\savebutton.hpp
+	"../BasicEntityTypes.hpp"
+
+1530458668 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\shop.cpp
+	"../../../Headers/GameItems/Enemies/Shop.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530454757 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\shop.hpp
+	"../BasicEntityTypes.hpp"
+
+1530389792 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\startbutton.cpp
+	"../../../Headers/GameItems/Enemies/StartButton.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530349145 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\startbutton.hpp
+	"../BasicEntityTypes.hpp"
+
+1530397185 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\enemies\titlescreenbutton.cpp
+	"../../../Headers/GameItems/Enemies/TitleScreenButton.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530396910 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\titlescreenbutton.hpp
+	"../BasicEntityTypes.hpp"
+
+1530460121 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\entity.cpp
+	"../../Headers/GameItems/BasicEntityTypes.hpp"
+	"../../Headers/GameItems/Entity.hpp"
+	"../../Headers/Vector.hpp"
+	"../../Headers/GameItems/System.hpp"
+
+1530521634 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\friendlies\helper.cpp
+	"../../../Headers/GameItems/Friendlies/Helper.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+
+1530520655 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\friendlies\helper.hpp
+	"../BasicEntityTypes.hpp"
+	"../../GUI/DrawableObject.hpp"
+	"../hitbox.hpp"
+
+1529254472 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gui\drawableobject.hpp
+	"../Vector.hpp"
+
+1530446451 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\friendlies\player.cpp
+	"../../../Headers/GameItems/Friendlies/Player.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+
+1530108517 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\friendlies\player.hpp
+	"../BasicEntityTypes.hpp"
+	"../../GUI/DrawableObject.hpp"
+	"../hitbox.hpp"
+
+1530446404 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\friendlies\playerbullet.cpp
+	"../../../Headers/GameItems/Friendlies/PlayerBullet.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530208763 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\friendlies\playerbullet.hpp
+	"../BasicEntityTypes.hpp"
+
+1530453699 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\friendlies\playerexplosion.cpp
+	"../../../Headers/GameItems/Friendlies/PlayerExplosion.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530213748 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\friendlies\playerexplosion.hpp
+	"../BasicEntityTypes.hpp"
+
+1530446651 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\friendlies\playerrocket.cpp
+	"../../../Headers/GameItems/Friendlies/PlayerRocket.hpp"
+	"../../../Headers/GameItems/Entity.hpp"
+	"../../../Headers/GUI/Screen.hpp"
+	"../../../Headers/GameItems/System.hpp"
+	"../../../Headers/GameItems/hitbox.hpp"
+
+1530199692 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\friendlies\playerrocket.hpp
+	"../BasicEntityTypes.hpp"
+
+1530428133 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\hitbox.cpp
+	"../../Headers/GameItems/hitbox.hpp"
+
+1530521921 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\system.cpp
+	"../../Headers/GameItems/System.hpp"
+	"../../Headers/GameItems/Entity.hpp"
+	"../../Headers/GameItems/BasicEntityTypes.hpp"
+	"../../Headers/GameItems/hitbox.hpp"
+	"../../Headers/GameItems/Terrain.hpp"
+	"../../Headers/GameItems/Friendlies/Player.hpp"
+	"../../Headers/GameItems/Friendlies/PlayerRocket.hpp"
+	"../../Headers/GameItems/Friendlies/PlayerBullet.hpp"
+	"../../Headers/GameItems/Friendlies/PlayerExplosion.hpp"
+	"../../Headers/GameItems/Enemies/StartButton.hpp"
+	"../../Headers/GameItems/Enemies/ExitButton.hpp"
+	"../../Headers/GameWrapper.hpp"
+	"../../Headers/GameItems/Enemies/Help.hpp"
+	"../../Headers/GameItems/Enemies/LoadButton.hpp"
+	"../../Headers/GameItems/Enemies/TitleScreenButton.hpp"
+	"../../Headers/GameItems/Enemies/SaveButton.hpp"
+	"../../Headers/GameItems/Enemies/DeathMsg.hpp"
+	"../../Headers/GameItems/Enemies/EnemyPlane01.hpp"
+	"../../Headers/GameItems/Enemies/EnemyPlane02.hpp"
+	"../../Headers/GameItems/Enemies/LevelSpawner01.hpp"
+	"../../Headers/GameItems/Enemies/LevelSpawner02.hpp"
+	"../../Headers/GameItems/Enemies/EnemyBullet01.hpp"
+	"../../Headers/GameItems/Enemies/EnemyBoss01.hpp"
+	"../../Headers/GUI/Screen.hpp"
+	"../../Headers/GameItems/Enemies/Shop.hpp"
+	"../../Headers/GameItems/Enemies/DmgBuy.hpp"
+	"../../Headers/GameItems/Enemies/CDbuy.hpp"
+	"../../Headers/GameItems/Enemies/HealthBuy.hpp"
+	"../../Headers/GameItems/Enemies/HealthReduced.hpp"
+	"../../Headers/GameItems/Friendlies/Helper.hpp"
+	<fstream>
+
+1530213564 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\terrain.hpp
+	<istream>
+	"Entity.hpp"
+	"../Vector.hpp"
+	"BasicEntityTypes.hpp"
+
+1526754082 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gamewrapper.hpp
+
+1530426465 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\levelspawner01.hpp
+	"../BasicEntityTypes.hpp"
+
+1530434510 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\gameitems\enemies\enemyboss01.hpp
+	"../BasicEntityTypes.hpp"
+	"../hitbox.hpp"
+
+1530308161 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gameitems\terrain.cpp
+	"../../Headers/GameItems/Terrain.hpp"
+	"../../Headers/GUI/Screen.hpp"
+	<stdlib.h>
+
+1529878005 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gamewrapper.cpp
+	"../Headers/GameWrapper.hpp"
+	<windows.h>
+
+1530109741 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gui\drawableobject.cpp
+	"../../Headers/GUI/DrawableObject.hpp"
+	"../../Headers/GUI/Screen.hpp"
+
+1530349143 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\gui\screen.cpp
+	"../../Headers/GUI/Screen.hpp"
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+	<iostream>
+
+1530359389 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\handlers\keyhandler.cpp
+	"../../Headers/Handlers.hpp"
+	"../../Headers/GameWrapper.hpp"
+	<windows.h>
+	"../../Headers/GameItems/System.hpp"
+
+1526751771 d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\headers\handlers.hpp
+
+1530110759 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\handlers\redrawhandler.cpp
+	"../../Headers/Handlers.hpp"
+	"../../Headers/GUI/Screen.hpp"
+	"../../Headers/GameItems/Terrain.hpp"
+	"../../Headers/GameItems/Entity.hpp"
+	"../../Headers/GameItems/System.hpp"
+
+1530087660 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\declarations\handlers\tickhandler.cpp
+	"../../Headers/Handlers.hpp"
+	"../../Headers/GameItems/System.hpp"
+
+1530087722 source:d:\desktop\fmi\2_sem\project\petar_tsankov_45367_consolegame\main.cpp
+	"./Headers/GUI/Screen.hpp"
+	"./Headers/Handlers.hpp"
+	"./Headers/GameWrapper.hpp"
+	<iostream>
+	"./Headers/GameItems/BasicEntityTypes.hpp"
+	"./Headers/GameItems/Entity.hpp"
+	"Headers/GameItems/System.hpp"
+
